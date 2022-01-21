@@ -1,0 +1,20 @@
+.body{
+    height: calc(100vh - 31px);
+    background-image: url("funny-background.png");
+    .game-body{
+        height: calc(100% - 40px);
+        width: 100%;
+        .target{
+            height: 300px;
+            width: 300px;
+            background-color: gray;
+            transition: all 200ms ease-in-out;
+        }
+    }
+    .score-panel{
+        text-align: center;
+        height: 40px;
+        font-size: 2em;
+        font-weight: bold;
+    }
+}
